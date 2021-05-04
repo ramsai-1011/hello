@@ -9,6 +9,10 @@ def perm(x):
         x1=x[i]
         xs=x[:i]+x[i+1:]
         print(xs)
+        
+        
+        
+        
         for i in perm(xs):
             #print(x1,i)
             l.append([x1]+i)
